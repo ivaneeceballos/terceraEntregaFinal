@@ -1,0 +1,38 @@
+/* footer */
+  
+.footer__h2 {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .footer__div {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+  }
+  
+  .footer__div--div {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-direction: column;
+  }
+  
+  .img__contactos {
+    height: 40vh;
+    width: 50vh;
+  }
+  
+  /* redes sociales iconos */
+  .wasapp a {
+    color: $colors-whatsapp;
+  }
+  
+  .facebook a {
+    color: $colors-facebook;
+  }
+  
+  .instegram a {
+    color: $colors-instegram;
+  }
+  /*fin footer*/

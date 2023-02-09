@@ -1,0 +1,11 @@
+/*mixin*/
+
+@mixin fondo-color ($fondo, $colors,$type){
+    color: $colors;
+    background-color: $fondo;
+    font-family: $type;
+}
+
+body {
+    @include fondo_color ($colors-terciario, $colors-blanco, $type-primaria);   
+}

@@ -1,0 +1,221 @@
+/* main */
+  
+.main__h1 {
+    text-align: center;
+    border-bottom: 2px $colors-primario solid;
+    border-top: 2px $colors-primario solid;
+  }
+  
+  .main__h2 {
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .main__div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  
+  .main__div--div {
+    display: flex;
+  }
+  
+  .main__section {
+    margin: 5px;
+  }
+  
+  .main__section--h3 {
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  /* imagen de main */
+  
+
+  .imgMain_clientes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .imgMain {
+    border: 2px $colors-primario solid;
+    border-radius: 10px;
+    width: 80vh;
+    height: 60vh;
+  }
+  
+  p {
+    font-size: 17px;
+    text-align: center;
+  }
+  
+  .main__section--div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+  }
+  
+  /* pagina clientes */
+  
+  .main__table {
+    border: 3px $colors-primario solid;
+    padding: 3px;
+  }
+  
+  .main__tableUno {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* fin pagina clentes */
+  
+  /* pagina contactos */
+  
+  .main__div--contactos {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: flex-end;
+  }
+  
+  .mapa {
+    width: 36vh;
+    height: 48vh;
+    margin: 20px 0 0 0;
+  }
+  
+  .formato_label {
+    margin:  10px 0 0 50px;
+  }
+  .formato_input {
+    margin:  0 50px 0 0;
+  }
+  .formato_input--email {
+    margin:  0 0 0 20px;
+  }
+
+  .form__form {
+    font-size: 15px;
+    border: 3px $colors-primario solid;
+  }
+  .textarea {
+    margin:  0 0 0 20px;
+  }
+  
+  .form__form--label {
+    font-size: 20px;
+    text-align: center;
+  }
+  .h2_form {
+    text-align: center;
+    margin: 30px;
+  }
+  .botones_form {
+   margin: 0 0 0 70px;
+  }
+  
+  /* fin pagina contactos */
+  
+  /* pagina Nosotros */
+  
+  .main__div--nosotros {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .main__div--nosotrosSectionUno {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px $colors-primario solid;
+    border-radius: 5px;
+    margin: 3px;
+    padding: 3px;
+  }
+  
+  .main__div--nosotrosSectionDos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px $colors-primario solid;
+    border-radius: 5px;
+    margin: 3px;
+    padding: 30px;
+  }
+  
+  .main__div--nosotrosSectionTres {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px $colors-primario solid;
+    border-radius: 5px;
+    margin: 3px;
+    padding: 30px;
+    list-style: none;
+  }
+  
+  /* fin de pagina nosotros */
+  
+  /* pagina fotos */
+  
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "foto-1 foto-2 foto-3"
+      "foto-4 foto-5 foto-6";
+  }
+  
+  .container img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .foto-1 {
+    margin: 10px;
+    padding: 10px;
+    grid-area: foto-1;
+  }
+  
+  .foto-2 {
+    margin: 10px;
+    padding: 10px;
+    grid-area: foto-2;
+  }
+  
+  .foto-3 {
+    margin: 10px;
+    padding: 10px;
+    grid-area: foto-3;
+  }
+  
+  .foto-4 {
+    margin: 10px;
+    padding: 10px;
+    grid-area: foto-4;
+  }
+  
+  .foto-5 {
+    margin: 10px;
+    padding: 10px;
+    grid-area: foto-5;
+  }
+  
+  .foto-6 {
+    margin: 10px;
+    padding: 10px;
+    grid-area: foto-6;
+  }
+  
+  /* fin pagina fotos */
+
+  /*fin main*/
