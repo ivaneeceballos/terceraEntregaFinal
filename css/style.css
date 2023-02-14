@@ -258,7 +258,7 @@ p {
 
 /*fin footer*/
 /* media queri */
-@media (max-width: 900px) {
+@media (max-width: 1024px) {
   /* pagina fotos */
   .container {
     display: grid;
