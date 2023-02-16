@@ -109,9 +109,10 @@ p {
 /* pagina contactos */
 .main__div--contactos {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column-reverse;
   justify-content: space-evenly;
-  align-items: flex-end; }
+  align-items: center;
+  flex-wrap: wrap; }
 
 .mapa {
   width: 60vh;
